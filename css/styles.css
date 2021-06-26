@@ -11252,17 +11252,18 @@ body {
   padding: 5rem 0;
 }
 
-/* animated  */
-html::-webkit-scrollbar {
-    width: 20px; 
+/* striped lines */
+  html::-webkit-scrollbar {
+      width: 20px;
   }
-  
-html::-webkit-scrollbar-track {
-    background:  linear-gradient(0deg, rgba(255, 0, 0, 1) 0%, rgba(7, 0, 211, 1) 100%);
-  }
-
+  html::-webkit-scrollbar-track {
+  background-image: repeating-linear-gradient(45deg, red 0, red 1px, transparent 0, transparent 50%);
+  background-size: 10px 10px;
+}
 html::-webkit-scrollbar-thumb {
     background: transparent;
-    
-  }
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: inset 1px 1px 5px black ;
+   }
   
