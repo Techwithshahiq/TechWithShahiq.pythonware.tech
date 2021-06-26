@@ -11252,16 +11252,17 @@ body {
   padding: 5rem 0;
 }
 
+/* animated  */
 html::-webkit-scrollbar {
-width: 20px;
-}
-
+    width: 20px; 
+  }
+  
 html::-webkit-scrollbar-track {
-  background: linear-gradient(0deg, rgba(255, 0, 0, 1) 0%, rgba(7, 0, 211, 1) 100%);
-}
+    background:  linear-gradient(0deg, rgba(255, 0, 0, 1) 0%, rgba(7, 0, 211, 1) 100%);
+  }
 
 html::-webkit-scrollbar-thumb {
-  background: transparent;
-  box-shadow: 0x 0x 0px 100vh black;
-}
+    background: transparent;
+    box-shadow: 0px 0px 0px 100vh black;
+  }
   
